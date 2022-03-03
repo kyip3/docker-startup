@@ -1,4 +1,4 @@
-** Demo to test run docker **
+**Demo to test run docker**
 
 ## 1. Build the docker file:
 
