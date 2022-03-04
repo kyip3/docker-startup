@@ -87,3 +87,8 @@ docker stop angry_lamport
 ```
 docker ps -a
 ```
+
+keynotes:
+
+<img width="888" alt="Screenshot 2022-03-04 at 10 39 03 PM" src="https://user-images.githubusercontent.com/12857531/156783190-e47a1cd5-bc43-4a8e-8502-dd8a47fd0626.png">
+
