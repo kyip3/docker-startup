@@ -1,7 +1,7 @@
 # Images and Containers
 
 ## Images 
-blue print and application codes
+blue prints and application codes
 
 ## Containers
 running instances of those images
@@ -41,7 +41,7 @@ docker run -it node
 It will return 2. You can also run other node command in there.
 
 
-### 6. To quit, use Ctrl+C twice.
+### 6. To quit, enter Ctrl+C twice.
 
 ### 7. List all the processes again
 ```
@@ -71,20 +71,30 @@ docker build .
 ```
 
 ### 5. Run the docker image
-specify localport 3000 and docker container exposed port 80
+Specify local port 3000 and docker container internal exposed port 80
 ```
 docker run -p 3000:80 19050991285e
 ```
 
-### 6. list the processes and stop
+### 6. List the processes and stop
 ```
 docker ps
 docker stop angry_lamport
 ```
 
-If you run 'docker ps', it doesnt list there anymore 
-
-run 'docker ps -a' instead.
+- If you run 'docker ps', it doesnt list there anymore 
+- Run 'docker ps -a' instead.
 ```
 docker ps -a
 ```
+
+keynotes:
+
+<img width="899" alt="Screenshot 2022-03-04 at 11 38 45 PM" src="https://user-images.githubusercontent.com/12857531/156793524-e7c59d49-a077-4be7-8d98-969b990db5f4.png">
+
+<img width="871" alt="Screenshot 2022-03-04 at 11 39 04 PM" src="https://user-images.githubusercontent.com/12857531/156793588-a3b26be6-a540-444e-93a2-cf1411f1e804.png">
+
+
+
+
+
